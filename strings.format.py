@@ -1,0 +1,8 @@
+str1=input("Enter the name")
+str2=int(input("Enter the age"))
+str3=float(input("Enter the height"))
+print("Name {}\n Age{}\n Height{}".format(str1,str2,str3))
+str4=input("Enter the name")
+print("Hi{}".format(str4))
+print("Good afternoon{}".format(str4))
+print(f"Bye{str4}")
