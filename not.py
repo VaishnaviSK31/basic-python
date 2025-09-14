@@ -1,0 +1,11 @@
+print(not(-21.77))
+a=10
+print(a)
+b=(6*7)
+print(b)
+d=10,20,30
+print(type(d))
+x=(10**2)
+print(x)
+y=x
+print(y)
