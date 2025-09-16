@@ -1,3 +1,8 @@
+def even(num): 
+    if (num%2==0):
+        return True
+    else:
+        return False
 L=[]
 i=0
 while(i<=4):
@@ -6,5 +11,5 @@ while(i<=4):
     L.insert(i,data)
     i=i+1
 print(L)
-k=list(filter(lambda num:(num%2==0),L))
+k=list(filter(even,L))
 print(k)
