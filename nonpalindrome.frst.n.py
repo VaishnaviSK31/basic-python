@@ -11,11 +11,11 @@ def ispalindrome(n):
         rev=rev*-1
     return temp==rev
 n=int(input("Enter num:"))
-print(f"First {n}  palindrome numbers:--->Vaishnavi")
+print(f"First {n} non palindrome numbers:--->Vaishnavi")
 count = 0
 series = 0
 while count < n:
-    if ispalindrome(series):
+    if not ispalindrome(series):
         print(series, end=" ")
         count += 1
     series += 1
