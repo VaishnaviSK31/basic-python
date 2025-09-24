@@ -11,6 +11,6 @@ def isprime(n):
 n=int(input("Enter a num:"))
 flag=isprime(n)
 if flag:
-    print(f"{n} isprime")
+    print(f"{n} is prime")
 else:
     print(f"{n} is not prime")
