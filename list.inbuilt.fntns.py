@@ -1,0 +1,14 @@
+a=[10,20,30,40,50]
+print(len(a))
+print(min(a))
+print(max(a))
+print(all(a))
+b=[0,10,20,40,50]
+print(all(b))
+print(any(b))
+c=[0,0,0,0]
+print(all(c))
+print(any(c))
+d=[10,5,50,40,7,9,100]
+print(sorted(d))
+print(sorted(d,reverse=True))

@@ -1,0 +1,6 @@
+print("Hello")
+print("World")
+print()
+print()
+print("Hello",end=" ")
+print("World")
