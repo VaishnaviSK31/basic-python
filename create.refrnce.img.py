@@ -1,0 +1,6 @@
+fptr=open("image.jpg","rb")
+data=fptr.read()
+fptr1=open("newimage.jpg","wb")
+fptr1.write(data)
+fptr1.close()
+fptr.close()

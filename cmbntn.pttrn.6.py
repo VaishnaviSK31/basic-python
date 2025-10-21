@@ -1,5 +1,5 @@
 n=int(input("Enter num:"))
-noc=4
+noc=n
 for i in range(1,(n*2)):
     for k in range(n,noc,-1):
         print(" ",end="")

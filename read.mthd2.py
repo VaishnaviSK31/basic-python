@@ -1,0 +1,5 @@
+print("Enter the filename")
+fname=input()
+fptr=open(fname,"r")
+data2=fptr.read(15)
+print(data2)

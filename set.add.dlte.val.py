@@ -1,0 +1,12 @@
+a=set()
+for i in range(5):
+    print("Enter the value")
+    data=int(input())
+    a.add(data)
+print(a)
+a.update([60,70,80])
+print(a)
+print("Enter the value to discard")
+d=int(input())
+a.discard(d)
+print(a)

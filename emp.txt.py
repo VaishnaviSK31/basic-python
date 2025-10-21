@@ -1,0 +1,12 @@
+print("Enter the filename")
+fname=input()
+fptr=open(fname,"a")
+for i in range(5):
+    eid=input("Enter the eid:")
+    ename=input("Enter the ename:")
+    edes=input("Enter the designation:")
+    esal=input("Enter the salary:")
+    eads=input("Enter the eaddress:")
+fptr.write(eid+"\t"+ename+"\t"+edes+"\t"+esal+"\t"+eads+"\n")
+fptr.close()
+print("5 employee details are stored")

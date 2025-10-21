@@ -1,0 +1,7 @@
+t=(10,20,30,(99.8,98.7,("Python","Java"),97.6),40,50,60)
+print(t)
+print(len(t))
+print(t[6])
+print(t[3][3])
+print(t[3][2][0])
+print(t[3][2])

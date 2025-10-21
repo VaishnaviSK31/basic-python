@@ -1,0 +1,13 @@
+s1={10,20,30,40,50}
+print(s1)
+s2={10,20,30,10,20,10,20}
+print(s2)
+s3={"Rama",23,5.6}
+print(s3)
+print(len(s3))
+print(type(s3))
+s4={}
+print(type(s4))
+s5={10,20,30,40,50}
+print(s5[1])
+print(s5[1:4])
